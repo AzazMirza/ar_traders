@@ -1,0 +1,35 @@
+< ------------ >
+ALL THE READ FILES ARE YET TO BE ADD WITH TITLES, CORRECT DATE AND GRAND TOTAL ETC.
+< ------------ >
+
+view stock > stock.navBar
+update stock > stock.navBar
+
+sales ledger > ledgers.navBar
+purchse ledger > ledgers.navBar
+
+client history > reports.navBar
+supplier history > reports.navBar
+
+add group > admin.navBar
+add item > admin.navBar
+add client > admin.navBar
+add supplier > admin.navBar
+
+stock receiving > menu
+stock selling > menu
+
+read stock receiving > menu
+read stock selling > menu
+
+client radio > cash received > cash > menu 
+supplier radio > cash payed > cash > menu 
+
+read client radio > cash received > cash history > menu 
+read supplier radio > cash payed > cash history > menu 
+
+add expenses > expenses > menu
+read expenses > expenses > menu
+
+
+

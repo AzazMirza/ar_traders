@@ -1,0 +1,176 @@
+body{
+  color: black;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-image: linear-gradient(90deg, red -1%, rgb(255, 255, 255) 5%, rgb(255, 255, 255) 95%, red 100%);
+  backdrop-filter: blur(100px);
+  overflow: scroll;
+  /* overflow-x: hidden; */
+  padding-top: 0px;
+  margin: 0px;
+  gap: 10px;
+}
+
+table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+
+}
+
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}
+th{
+padding: 5px;
+}
+
+ tr:nth-child(even) > td {
+    background-color: rgb(196, 196, 196);
+  }
+tr:nth-child(odd) > td {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  tr{
+    transition: scale 0.3s;
+
+  }
+  
+  tr:hover {
+    background-color: #64646463;
+    scale: 1.05;
+    transition: scale 0.3s;
+
+
+}
+button{
+  width: 150px;
+  padding: 5px;
+  font-size: large;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: rgb(230, 172, 172);
+  transition: all 0.3s;
+  border: none;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: rgb(13, 13, 13) 2px 2px 2px 2px;
+  transition: all 0.3s;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.top-inputs{
+  /* background-color: #929292; */
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1%;
+  border: #313030 2px solid;
+}
+
+.top-inputs> span> input{
+  float: right;
+  width: 20%;
+}
+.top-inputs> span> button{
+  width: 40%;
+}
+
+form label{
+  font-weight: bold;
+}
+
+.top-inputs> span{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+.top-inputs> span> span{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: rgb(153, 0, 26); */
+}
+#invoice{
+  float: right;
+  margin: 0px;
+}
+
+.horizontal-flow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40rem;
+}
+
+.bottomFields{
+  background-color: aliceblue;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 1rem;
+padding-right: 1rem;
+height: 3rem;
+width: 90rem;
+margin-top: -7px;
+}
+.bottomFields>div{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-left: 1rem;
+padding-right: 1rem;
+background-color: aliceblue;
+width: max-content;
+}
+
+  @media print{
+    body{
+        display: flex;
+        justify-content: start;
+        align-items:center;
+        top: 10px;
+        margin: 15%;
+        background: none;
+}
+button{
+    display: none;
+}
+    th, tr:nth-child(even) > td {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+      
+      #top-inputs{
+        display: none;
+      }
+      .action{
+        display: none;
+      }
+  }
+
+  .visible{
+    display: block;
+  }
+  
+  .invisible{
+    display: none;
+  }

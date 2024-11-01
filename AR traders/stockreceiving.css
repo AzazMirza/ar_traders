@@ -1,0 +1,201 @@
+body
+{
+    margin: 0;
+    padding: 5%;
+    background-color: #444444;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+    gap: 7px;
+    justify-content: center;
+}
+
+#stockForm{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#d{
+padding: 5px;
+border-bottom: 1px black solid;
+text-align: center;
+}
+.results {
+    background-color: #e4e4e4;
+    width: inherit;
+    overflow-y: scroll;
+    max-height: 100px;
+    position: fixed;
+    z-index: 10;
+    }
+.results >li {
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    width: 120px;
+    padding: 3px;
+    overflow: hidden;
+    position: relative;
+    z-index: 11;
+}
+.results >li:hover{
+    cursor: pointer;
+    background-color: #b9b9b9;
+}
+    ::-webkit-scrollbar {
+        width: 0px;
+}
+
+td>input{
+    width: 90%;
+    margin: 0px;
+    outline: none;
+}
+#suppliers{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+}
+#suppliers > input{
+    width: 98.3%;
+    height: 100%;
+}
+/* #searchSupplier{
+    width:35% ;
+    border-radius: 25px;
+    padding-left: 2%;
+    color: black;
+    outline: none;
+} */
+#btndiv{
+    width: 99%;
+    display: flex;
+    right: 0px;
+    justify-content: space-between;
+}
+#btndiv>input{
+    width: 80%;
+
+}
+ button{
+    width: 150px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(230, 172, 172);
+    transition: all 0.3s;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: rgb(13, 13, 13) 2px 2px 2px 2px;
+    transition: all 0.3s;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* #top{
+width: 100%;
+margin-top: 1%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+} */
+#bottomFields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 89.5vw;
+    height: 30px;
+    background-color: aliceblue;
+    margin-top: -7px;
+}
+#bottomFields> input{
+    height: 20px;
+
+}
+#bottom{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+   gap: 20px;
+}
+#bottom> button {
+    width: 150px;
+
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-around; */
+    /* gap: 5px; */
+}
+
+.top-inputs{
+display: flex;
+flex-direction: column;
+width: 49%;
+}
+#btndiv{
+    width: 99%;
+    display: flex;
+    right: 0px;
+    justify-content: space-between;
+}
+#btndiv>input{
+    width: 80%;
+
+}
+
+#invoice{
+    border-radius: 10px;
+}
+
+.top>input{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.top>div>input{
+    padding: 5px;
+    border-radius: 10px;
+
+}
+table{
+    width: 90vw;
+}
+
+   table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+   }
+
+   th {
+  background-color: rgb(252, 99, 99);
+}
+   td {
+    padding: 1%;
+  background-color: rgb(249, 187, 187);
+
+  
+}
+    .drop-down
+    {
+        position: relative;
+    }
+
+h1{
+    color: white;
+    font-size: 2.5rem;
+}
+
+
+
